@@ -27,10 +27,7 @@ public abstract class BinaryExpression implements Expression {
 	
 	/**
 	 * Diese Methode soll zwei beliebige Ausdrücke bezüglich ihres evaluierten Wertes vergleichen.
-	 * Beachte, dass diese Methode von allen Unterklassen genutzt werden kann.
+	 * 
 	 */
-	public boolean equals(Object other){
-		//TODO: Implement me.
-		return false;
-	}
+	public abstract boolean equals(Object other);
 }
